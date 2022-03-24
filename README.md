@@ -1,5 +1,7 @@
 # 7DaysOfCode | @Alura
 
+#7DaysOfCode #Alura 
+
 ## Lógica de Programação
 
 ### Desafios
