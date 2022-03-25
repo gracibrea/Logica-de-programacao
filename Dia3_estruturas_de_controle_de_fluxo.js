@@ -1,10 +1,22 @@
+/*
+Seu desafio de hoje é criar os destinos possíveis de um jogo, em que o usuário consiga escolher:
+
+1. Se quer **seguir para área de Front-End** ou **seguir para a área de Back-End**.
+
+2. Caso esteja na área de **Front-End**, se quer **aprender React** ou **aprender Vue**. Caso esteja na área de **Back-End**, poderá **aprender C#** ou **aprender Java**.
+
+3. Depois, independente das escolhas anteriores, o usuário poderá escolher entre **seguir se especializando na área escolhida** ou **seguir se desenvolvendo para se tornar Fullstack**. 
+
+Você deve exibir na tela uma mensagem específica para cada escolha.
+*/
+
 const nome = prompt('Olá! Qual é seu nome?');
 const idade = prompt(`Quantos anos você tem,  ${nome}`);
 const linguagem = prompt(`Qual linguagem de programação você está estudando,  ${nome}?`);
 const gosto = prompt(`Você gosta de estudar ${linguagem}? Digite [1] para SIM e [0] para NÃO.`);
 
 if (gosto == 1) {
-	document.querySelector('.mensagem').innerHTML = `🤩 Que legal que aos ${idade} anos de idade  você curte estudar ${linguagem}, ${nome}. <br><br> Bons Estudos!`;
+	document.querySelector('.mensagem').innerHTML = `🤩 Que legal que aos ${idade} anos de idade  você curte estudar ${linguagem}, ${nome}. <br>Bons Estudos!`;
 } else {
 	document.querySelector('.mensagem').innerHTML = `😞 Que pena que você não curte estudar ${linguagem}, ${nome}. Já experimentou outra linguagem?`;
 }
