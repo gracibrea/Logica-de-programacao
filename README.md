@@ -18,7 +18,9 @@ O segundo (===) retorna se o tipos da esquerda e da direita do operador são os 
 
 **_Variáveis, Condição if, prompt para guardar o input numa variável, manipulação de elementos HTML com JavaScript for querySelector e inner.HTML_**.
 
-### Dia 3 | ✖ Pendente  #feedback
+### Dia 3 | ✔ Finalizado
 
 **_Estruturas de controle de fluxo: for, while, if, else_**.
+
+Grata a [Victor Hugo Alves Perricci](https://www.facebook.com/photo.php?fbid=4875468985904729&set=p.4875468985904729&type=3) pela ajuda!
 
